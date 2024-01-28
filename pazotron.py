@@ -357,7 +357,7 @@ if len(sys.argv) > 1:
         if param == '+d': diagonals = True
         if param == '+c': combine = True
         if param == '+iso': makeISO = True
-        if param.startswith('+plt+out='): donedir = param[9:]
+        if param.startswith('+plt_out='): donedir = param[9:]
         if param.startswith('+iso_out='): iso_donedir = param[9:]
 
 listOfFiles = os.listdir(srcdir)
